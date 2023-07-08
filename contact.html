@@ -8,7 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
      <!-- Site Metas -->
-    <title>HOTEL G1NE</title>  
+    <title>HOTEL G1NE</title>
+    <link rel="stylesheet" type="text/css" href="classic.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css.css">
+	<link rel="stylesheet" type="text/css" href="superslides.css">
+	<link rel="stylesheet" type="text/css" href="classic.date.css">
+	<link rel="stylesheet" type="text/css" href="classic.time.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+
+
+    	<!--Javascript Links Start-->
+	<script src="baguetteBox.min.js.js"></script>
+	<script src="boonstrap.min.js"></script>
+	<script src="contact-form-script.js"></script>
+	<script src="custom.js"></script>
+	<script src="form-validator.min.js"></script>
+	<script src="images-loaded.min.js"></script>
+	<script src="legacy.js"></script>
+	<script src="picker.date.js"></script>
+	<script src="picker.js"></script>
+	<script src="picker.time.js"></script>
+	<script src="popper.min.js"></script>
+	<!--Javascript Links end-->
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -30,21 +52,35 @@
 
 </head>
 
-    <body>
-        <section id="header">
-            <a href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
-            <div>
-                <ul id="navbar">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="reservation.html">reservation</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <a href="#" id="close"><i class="fa fa-times"></i></a>
-                </ul>
-            </div>
-        </section>
 
+<body>
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item active"><a class="nav-link" href="menu.html">Menu</a></li>
+							<li class="nav-item active"><a class="nav-link" href="services.html">Services</a></li>
+							<li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
+							<li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+						</ul>
+					
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+<!--contact..........-->
 	<div class="contact-imfo-box">
 		<div class="container">
 			<div class="row">
@@ -57,6 +93,113 @@
 						</p>
 					</div>
 				</div>
+
+<!-- Fill form info starts here-->
+<section id="form-details">
+    <form action="">
+        <span>LEAVE A MESSAGE</span>
+        <h2>We'd Love to Hear From You</h2>
+        <input type="text" placeholder="Your Name" class="form-input">
+        <input type="text" placeholder="Email" class="form-input">
+        <input type="text" placeholder="Subject" class="form-input">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" class="form-input"></textarea>
+        <button class="btn">Submit</button>
+    </form>
+    <div class="people">
+        <div>
+            <img src="gichohi.jpg" alt="">
+            <p><span>F. Gichohi</span> Chief Executive Officer <br>
+            Phone: +234 758 376 110 <br>
+            Email: fgichohi@gmail.com</p>
+        </div>
+        <div>
+            <img src="0PueooV1qWk.jpg" alt="">
+            <p><span>Brian Githinji</span> Chief Operations Officer <br>
+            Phone: +254 748 635 534 <br>
+            Email: briangithinji@gmail.com</p>
+        </div>
+        <div>
+            <img src="thige.jpg" alt="">
+            <p><span>Thige James</span> Marketing Manager <br>
+            Phone: +234 796 080 137 <br>
+            Email: thigejames25@@gmail.com</p>
+        </div>
+        <div>
+            <img src="0fkgMCYNtRw.jpg" alt="">
+            <p><span>Presidential</span> Company Lawyer <br>
+            Phone: +254 702 952 567 <br>
+            Email: presidential@gmail.com</p>
+        </div>
+    </div>
+</section>
+    <!-- Fill form info ends here-->
+
+     <!-- To get newsletter info start-->
+<section id="newsletter" class="section-pl section-ml">
+    <div class="newstext">
+        <h4>Sign Up For Newsletter</h4>
+        <p>Get Email updates on WEEKLY SPECIAL and <span> Special Offers</span></p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email address" class="form-input">
+        <button class="btn">Sign Up</button>
+    </div>
+</section>
+<!-- To get newsletter info end-->
+
+<footer class="section-pl">
+    <div class="col">
+        <img class="logo" src="img/logo.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Juja, Nairobi Kenya</p>
+        <p><strong>Phone:</strong> +234 758 376 110</p>
+        <p><strong>Hours:</strong> Monday to Sunday. 24/7/365</p>
+        <div class="container">
+			<div class="row">
+				
+				<div class="col-lg-3 col-md-6">
+					<h3>Opening hours</h3>
+					<p><span class="text-color">Monday: </span>Closed</p>
+					<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
+					<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
+					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Contact information</h3>
+					<p class="lead"> <p> +254876543210</p>
+					<p>info@hotelg1ne.com</p>
+				</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    <div class="col">
+        <h4>Quick Links</h4>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="accommodation.html">Accommodation</a></li>
+            <li><a href="hotel.html">Hotel</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="col">
+        <h4>Information</h4>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Site Map</a></li>
+        </ul>
+    </div>
+</footer>
+<script src="assets/js/all.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
+
+
 				<div class="col-md-4">
 					<i class="fa fa-envelope"></i>
 					<div class="overflow-hidden">
@@ -80,99 +223,4 @@
 	</div>
 	<!-- End Contact info -->
 
-    <!-- Fill form info starts here-->
-        <section id="form-details">
-            <form action="">
-                <span>LEAVE A MESSAGE</span>
-                <h2>We'd Love to Hear From You</h2>
-                <input type="text" placeholder="Your Name" class="form-input">
-                <input type="text" placeholder="Email" class="form-input">
-                <input type="text" placeholder="Subject" class="form-input">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" class="form-input"></textarea>
-                <button class="btn">Submit</button>
-            </form>
-            <div class="people">
-                <div>
-                    <img src="gichohi.jpg" alt="">
-                    <p><span>F. Gichohi</span> Chief Executive Officer <br>
-                    Phone: +234 758 376 110 <br>
-                    Email: fgichohi@gmail.com</p>
-                </div>
-                <div>
-                    <img src="0PueooV1qWk.jpg" alt="">
-                    <p><span>Brian Githinji</span> Chief Operations Officer <br>
-                    Phone: +254 748 635 534 <br>
-                    Email: briangithinji@gmail.com</p>
-                </div>
-                <div>
-                    <img src="thige.jpg" alt="">
-                    <p><span>Thige James</span> Marketing Manager <br>
-                    Phone: +234 796 080 137 <br>
-                    Email: thigejames25@@gmail.com</p>
-                </div>
-                <div>
-                    <img src="0fkgMCYNtRw.jpg" alt="">
-                    <p><span>Presidential</span> Company Lawyer <br>
-                    Phone: +254 702 952 567 <br>
-                    Email: presidential@gmail.com</p>
-                </div>
-            </div>
-        </section>
-            <!-- Fill form info ends here-->
-
-             <!-- To get newsletter info start-->
-        <section id="newsletter" class="section-pl section-ml">
-            <div class="newstext">
-                <h4>Sign Up For Newsletter</h4>
-                <p>Get Email updates on WEEKLY SPECIAL and <span> Special Offers</span></p>
-            </div>
-            <div class="form">
-                <input type="text" placeholder="Your email address" class="form-input">
-                <button class="btn">Sign Up</button>
-            </div>
-        </section>
-        <!-- To get newsletter info end-->
-        
-        <footer class="section-pl">
-            <div class="col">
-                <img class="logo" src="img/logo.png" alt="">
-                <h4>Contact</h4>
-                <p><strong>Address:</strong> Juja, Nairobi Kenya</p>
-                <p><strong>Phone:</strong> +234 758 376 110</p>
-                <p><strong>Hours:</strong> Monday to Sunday. 24/7/365</p>
-                <div class="follow">
-                    <h4>Follow Us</h4>
-                    <div class="icon">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-linkedin-in"></i>
-                        <i class="fas fa-envelope"></i>
-                        <i class="fab fa-youtube"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="accommodation.html">Accommodation</a></li>
-                    <li><a href="hotel.html">Hotel</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col">
-                <h4>Information</h4>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms and Conditions</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Returns</a></li>
-                    <li><a href="#">Site Map</a></li>
-                </ul>
-            </div>
-        </footer>
-        <script src="assets/js/all.js"></script>
-        <script src="main.js"></script>
-    </body>
-</html>
+    
